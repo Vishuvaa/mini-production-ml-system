@@ -1,0 +1,114 @@
+{
+  "rows": 1057,
+  "reference": "training partition sample",
+  "features": {
+    "SeniorCitizen": {
+      "psi": 0.0,
+      "ks_statistic": 0.010182119205298013,
+      "ks_pvalue": 0.9999992000564225,
+      "rows_with_invalid_values": 0,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "tenure": {
+      "psi": 0.011020876712334612,
+      "ks_statistic": 0.025278618732261116,
+      "ks_pvalue": 0.7560277419190289,
+      "rows_with_invalid_values": 0,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "MonthlyCharges": {
+      "psi": 0.01646017239537499,
+      "ks_statistic": 0.045369441816461686,
+      "ks_pvalue": 0.11163459733568226,
+      "rows_with_invalid_values": 0,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "TotalCharges": {
+      "psi": 0.02345092179844452,
+      "ks_statistic": 0.03013155335430217,
+      "ks_pvalue": 0.544580998324537,
+      "rows_with_invalid_values": 0,
+      "missing_or_blank_rows": 2,
+      "status": "low"
+    },
+    "gender": {
+      "psi": 0.0037799078803327215,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "Partner": {
+      "psi": 0.00015207020297466315,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "Dependents": {
+      "psi": 8.49056127960588e-05,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "PhoneService": {
+      "psi": 6.386254258505847e-07,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "MultipleLines": {
+      "psi": 0.0034355069909914005,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "InternetService": {
+      "psi": 0.004261072211965039,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "OnlineSecurity": {
+      "psi": 0.0007844644332783296,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "OnlineBackup": {
+      "psi": 0.0007592870211960398,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "DeviceProtection": {
+      "psi": 0.0007295327642205455,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "TechSupport": {
+      "psi": 0.003709612650989064,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "StreamingTV": {
+      "psi": 0.0055346677861889725,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "StreamingMovies": {
+      "psi": 0.01084734637928356,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "Contract": {
+      "psi": 0.00041720503428464275,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "PaperlessBilling": {
+      "psi": 0.00329231728892158,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    },
+    "PaymentMethod": {
+      "psi": 0.0015895504951213308,
+      "missing_or_blank_rows": 0,
+      "status": "low"
+    }
+  },
+  "recommendation": "No configured drift threshold was crossed; continue monitoring."
+}

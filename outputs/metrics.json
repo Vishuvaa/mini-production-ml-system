@@ -1,0 +1,48 @@
+{
+  "model": "RandomForest",
+  "threshold": 0.3722444821018916,
+  "accuracy": 0.7511825922421949,
+  "precision": 0.5209302325581395,
+  "recall": 0.797153024911032,
+  "f1": 0.630098452883263,
+  "roc_auc": 0.8361613530469237,
+  "pr_auc": 0.6623978226301177,
+  "test_rows": 1057,
+  "test_churn_rate": 0.26584673604541154,
+  "training_seconds": 0.8992030999797862,
+  "threshold_selected_on": "validation",
+  "selection_metric": "validation F1",
+  "split": "stratified 70/15/15; random_state=42",
+  "dataset_rows": 7043,
+  "dataset_sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "dataset_url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv",
+  "python_version": "3.11.4",
+  "scikit_learn_version": "1.5.2",
+  "classification_report": {
+    "0": {
+      "precision": 0.9090909090909091,
+      "recall": 0.7345360824742269,
+      "f1-score": 0.812544547398432,
+      "support": 776.0
+    },
+    "1": {
+      "precision": 0.5209302325581395,
+      "recall": 0.797153024911032,
+      "f1-score": 0.630098452883263,
+      "support": 281.0
+    },
+    "accuracy": 0.7511825922421949,
+    "macro avg": {
+      "precision": 0.7150105708245242,
+      "recall": 0.7658445536926295,
+      "f1-score": 0.7213215001408475,
+      "support": 1057.0
+    },
+    "weighted avg": {
+      "precision": 0.8058996601734933,
+      "recall": 0.7511825922421949,
+      "f1-score": 0.7640418486673417,
+      "support": 1057.0
+    }
+  }
+}

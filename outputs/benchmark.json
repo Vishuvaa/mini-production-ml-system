@@ -1,0 +1,16 @@
+{
+  "measured_requests": 150,
+  "warmup_requests_excluded": 1,
+  "errors": 0,
+  "latency_ms": {
+    "p50": 35.178500023903325,
+    "p95": 45.68864497996401,
+    "p99": 46.13831400522031
+  },
+  "elapsed_seconds": 5.788522900023963,
+  "throughput_requests_per_second": 25.91334656365945,
+  "url": "http://127.0.0.1:8000/predict",
+  "measurement": "sequential, single client, end-to-end HTTP",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26100-SP0"
+}
